@@ -1,0 +1,486 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/* Hide horiontal scroll */
+body{
+    overflow-x: hidden;
+}
+
+.scrolling-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+/* Home Page starts here */
+/* Styling the Carousel slide Section start here */
+
+ /* Styling the transparent Carousel slide block box */
+ .container-content {
+    width: 300evw;
+    height: 200vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Styling for the Carousel content */
+.sliderContent {
+    width: 38vw;
+    height: 25em;
+    color: #fff;
+    background-color: rgba(2, 0, 0, 0.5); /* Transparent white background */
+    position: absolute;
+    top: -24em;
+    left: -6em;
+    transition: transform 0.5s ease; /* Smooth slide transition */
+}
+
+/* Carosuel heading 1*/
+.sliderContent h2{
+    font-family: Tangerine,cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5rem 2rem 2rem 3.5rem;
+}
+
+/* Carosuel heading 2*/
+.sliderContent h1{
+    font-family: trump mediaeval;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    padding: 2px 55px;
+    text-transform: uppercase;
+}
+
+/* Carosuel paragraph*/
+.sliderContent p{
+    width: 30vw;
+    font-family: trump mediaeval;
+    font-size: 20px;
+    text-align: left;
+    padding: 2px 55px;
+}
+
+/* Carousel span for Shop Now */
+.sliderContent span{
+    color: #FFF;
+}
+
+/* Carousel Slide Section end here */
+
+/* image containing before and after heading tag (not working)*/
+.image-container{
+    position: relative;
+    width: 200px;
+    height:200;
+}
+
+.image-container::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../public/images/heading-img-1.png");
+}
+
+/* All Section heading  Styling*/
+.heading h2{
+    font-family: Tangerine,cursive;
+    margin-top: 1em;
+    font-size: 4em;
+    text-decoration: underline;
+}
+
+/* Latest Arrival Section Styling starts here */
+.arrival-product{
+    padding: 60px 30px 60px 30px;
+}
+
+.latestProductSlider a{
+    text-decoration: none;
+    color: #000;
+}
+
+.latestProductSlider img{
+    height: 300px;
+    width: 300px;
+}
+.latestProductCard{
+    box-shadow: 5px 5px grey;
+}
+
+.latestProductCard:hover{
+    background-color: #44503c;
+    color: #fff;
+}
+
+.latestProductCard .productLink:hover{
+    color: #fff;
+}
+
+/* View All button Styling */
+.view-all-button{
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em;
+}
+
+/* Latest Arrival Section end here */
+
+/* Product Category Section Styling starts here */
+.productCategories .category-product-name{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+/* Product card styling */
+.product-card{
+    border: none;
+}
+
+.productLink{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Moonpond Vintage Store Section starts here*/
+
+/* heading styling */
+.heading-horizontal-line{
+    border: 2px solid #3f0f0f;
+    width: 50vw;
+    margin-left: 250px;
+    margin-top: -15px;
+}
+
+.vintage-heading-2{
+    margin-top: -20em;
+}
+
+.vintageStore-content{
+    display: block;
+    justify-content: center;
+    margin-left: 2em;
+}
+
+.second-heading h2{
+    font-family: trump mediaeval;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+/* Moonpond Vintage Store Section starts here */
+
+/* Looking to sell antiques Store starts here */
+.vintage-img-container{
+    margin-top: 5%;
+}
+
+.vintage-image-content{
+    background: url("../../public/images/CTA-banner.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20em;
+}
+
+.vintage-image-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.vintage-image-content h2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-family: Tangerine,cursive;
+    font-size: 3em;
+    text-decoration: underline;
+    letter-spacing: 5%;
+  }
+
+.vintage-image-content hr{
+    color: #000;
+    border: none;
+    border-top: 1px solid #000;
+    width: 20%;
+}
+
+.vintage-image-content p{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 35vw;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+  }
+/* Looking to sell antiques Store ends here*/
+
+/* French & English Antiques starts here */
+.antiques-content{
+    font-family: trump mediaeval;
+}
+
+.antiques-list-content{
+    font-family: trump mediaeval;
+}
+/* French & English Antiques ends here */
+
+/* Client Say Section Starts here */
+.clientSayContent{
+    background: #44503c;
+    color: #fff;
+    padding: 5em;
+    height: 25em;
+    display: flex;
+}
+
+.clientFeedback i{
+    font-size: 5em;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.feedbackContent{
+    margin: 0 auto;
+    justify-content: center;
+    padding: 15px;
+}
+
+.feedbackLine{
+    border: 2px solid yellow;
+    width: 50%;
+    margin-left: 25% ;
+}
+/* Client Say Section ends here */
+
+/* Blogs Section Starts here */
+.blogsSlider .card {
+    display: inline-block;
+    width: 200px; /* Adjust card width as needed */
+    margin-left: 10px; /* Adjust space between cards as needed */
+    background-color:  #44503c;
+    color: #fff;
+    height: auto;
+    padding: 20px 20px;
+  }
+
+.blogsSlider .card img{
+    width: 100%;
+  }
+
+.blog-content h4{
+    font-family: trump mediaeval;
+}
+/* Blogs Section ends here */
+
+/* Mailing List Section Starts here */
+.newsLetter{
+    background: url("../../public/images/newsletter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 20em;
+}
+
+.newsLetterHeading h2{
+    font-family: trump mediaeval;
+    font-weight: 700;
+}
+
+.newsLetterinputBox .textBox{
+    margin-left: 32%;
+}
+
+.newsLetterSubscribe{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+  
+.transparent-btn {
+    background-color: transparent;
+    border: 2px solid #fff; /* Set border color as needed */
+    color: #fff; /* Set text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.transparent-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+/* Mailing List Section ends here */
+
+/* Collections Page starts here */
+.permalinks{
+    font-family: trump mediaevel;
+}
+
+.collections .collections-page-heading{
+    font-size: 4pc;
+    font-family: trump mediaeval;
+    text-transform: uppercase !important;
+    margin-left: 20%;
+    font-weight: 500;
+}
+
+.collections .collection-sidebar-heading{
+    background-color: #44503c;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.collections .sidebar-heading{
+    font-weight: 800;
+    font-family: trump mediaeval;
+}
+
+.collections .sidebar-dropdown-menu{
+    list-style-type: none;
+}
+
+.collections .collection-with-sidebar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding: 5% 5%;
+    display: inline-block;
+}
+
+.collections .price-range input{
+    width: 5em;
+    padding: 1em 1em;
+}
+/* Collections Page ends here */
+
+/* Product Page starts here */
+
+.product-content .product-title{
+    color: #594c03 !important;
+    font-family: trump mediaeval;
+    font-weight: 700;
+}
+
+.product-content .product-horizontal-line{
+    border: 25% solid #3f0f0f;
+    width: 35vw;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.product-content .product-price-detail h2{
+    font-weight: 700;
+    font-family: trump mediaeval;
+}
+
+.product-content .product-description h3 strong{
+    font-family: trump mediaeval;
+}
+
+.product-content .decrease-quantity{
+    background-color: #FFF;
+}
+
+.product-content .increase-quantity{
+    background-color: #FFF;
+}
+
+.shopCollectiSlider .card{
+    background-color:  #44503c;
+    color: #fff;
+    height: 35em;
+    width: 28em;
+}
+
+.shopCollection-slider h4{
+    font-family: Tangerine,cursive;
+    font-size: 3em;
+}
+
+.product-content .shipping_card{
+    margin-left: 5%;
+}
+
+.share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+
+.share-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.share-buttons a:hover {
+    background-color: #0056b3;
+}
+
+/* Product Page ends here */
+
+/* Contact Us Page starts here */
+.contactTemplate{
+    background-color: #594c03;
+}
+
+.contactTemplate h2 strong{
+    text-transform: uppercase;
+    font-family: trump mediaeval;
+    color: #fff;
+}
+
+.contactTemplate p{
+    color: #fff;
+}
+
+.contactTemplate .contact-block a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contactTemplate .contact-block a:hover{
+    color: #e3d582;
+}
+
+.opening-hours-timings li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.contact-form{
+    background-color: #fff;
+    height: 50em;
+    color: #000;
+}
+
+.contact-form h2{
+    font-family: trump mediaevel;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-form p{
+    text-align: center;
+    color: #000;
+}
+/* Contact Us Page ends here*/

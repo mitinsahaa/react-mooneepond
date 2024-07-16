@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "./images/products/product-image-1.jpg",
+        "productName": "Pair of French Oak Henry II Style White...",
+        "category": "Latest Arrival",
+        "price": "$ 1,850.00"
+    },
+    {
+        "id": 2,
+        "image": "./images/products/product-image-2.jpg",
+        "productName": "Large Spanish Style Pine & Oak",
+        "category": "Latest Arrival",
+        "price": "$ 1,850.00"
+    },
+    {
+        "id": 3,
+        "image": "./images/products/product-image-3.jpg",
+        "productName": "Pair of French Oak Henry II Style White...",
+        "category": "Latest Arrival",
+        "price": "$ 1,850.00"
+    },
+    {
+        "id": 4,
+        "image": "./images/products/product-image-4.jpg",
+        "productName": "Pair of French Oak Henry II Style White...",
+        "category": "Latest Arrival",
+        "price": "$ 1,850.00"
+    },
+    {
+        "id": 5,
+        "image": "./images/products/product-image-5.jpg",
+        "productName": "Pair of French Oak Henry II Style White...",
+        "category": "Latest Arrival",
+        "price": "$ 1,850.00"
+    },
+    {
+        "id": 6,
+        "image": "./images/products/product-image-6.jpg",
+        "productName": "Pair of French Oak Henry II Style White...",
+        "category": "Latest Arrival",
+        "price": "$ 1,850.00"
+    }
+]

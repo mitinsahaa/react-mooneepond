@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "name": "Dinning Tables",
+      "image": "./images/products/api94jl8t__07859.jpg",
+      "imageAlt": "dinning table"
+    },
+    {
+      "id": 2,
+      "name": "Seatings",
+      "image": "./images/products/apioqzsbb__09111.jpg",
+      "imageAlt": "seating"
+
+    },
+    {
+      "id": 3,
+      "name": "Sideboards / Buffets",
+      "image": "./images/products/api40jpb1__76302.jpg",
+      "imageAlt": "sideboards / buffets"
+    
+    },
+    {
+      "id": 4,
+      "name": "Chest of Drawers & Commodes",
+      "image": "./images/products/apimequi7__91364.jpg",
+      "imageAlt": "chest of drawers & commodes"
+    
+    },
+    {
+      "id": 5,
+      "name": "Beds",
+      "image": "./images/products/louis-xvi-style-french-double-bed-moonee-ponds-antiques-2-1000x1000-e1524012112295-200x200__88606.jpg",
+      "imageAlt": "beds"
+    
+    },
+    {
+      "id": 6,
+      "name": "Bedsides",
+      "image": "./images/products/Bedsides.jpg",
+      "imageAlt": "Chest of Drawers & Commodes"
+    
+    },
+    {
+      "id": 7,
+      "name": "Display Cabinets / Vitrines",
+      "image": "./images/products/french-walnut-vitrine-at-moonee-ponds-antiques-2-150x150__76290.jpg",
+      "imageAlt": "Display Cabinets / Vitrines"
+    
+    },
+    {
+      "id": 8,
+      "name": "Desks",
+      "image": "./images/products/apihskxx4__66154.jpg",
+      "imageAlt": "DESKS"
+    
+    },
+    {
+      "id": 9,
+      "name": "Bookcases",
+      "image": "./images/products/api6kepdn__24257.jpg",
+      "imageAlt": "Bookcases"
+    
+    },
+    {
+      "id": 10,
+      "name": "Antique Lighting",
+      "image": "./images/products/apimxguep__16275.jpg",
+      "imageAlt": "Antique Lighting"
+    
+    },
+    {
+      "id": 11,
+      "name": "Antique Paintings & Tapestries",
+      "image": "./images/products/apisvy21k__39877.jpg",
+      "imageAlt": "Antique Paintings & Tapestries"
+    
+    },
+    {
+      "id": 12,
+      "name": "Antique Mirrors",
+      "image": "./images/products/apifyrr9u__68763.jpg",
+      "imageAlt": "Antique Mirrors"
+    
+    }
+]

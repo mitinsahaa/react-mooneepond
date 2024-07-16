@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "./images/blogs/louis-xv-style-commode-768x512-480069.jpg",
+        "title": "French Furniture Styles",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+        "id": 2,
+        "image": "./images/blogs/Antiques-blog_e7700559-820c-49a3-9916-2bf1b211c2c6-380888.jpg",
+        "title": "Antiques In Modern Settings",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+        "id": 3,
+        "image": "./images/blogs/brief-history-img-485932.jpg",
+        "title": "A Brief History About Moonee Ponds An...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+        "id": 4,
+        "image": "./images/blogs/antiques_dining_table-591379.jpg",
+        "title": "Antique Dining Table",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+        "id": 6,
+        "image": "./images/blogs/jar-628498.jpg",
+        "title": "Rare Shelley Vase",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+        "id": 7,
+        "image": "./images/blogs/antiques_dining_table-591379.jpg",
+        "title": "Dating Furniture Using Dovetail Joints",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    }
+]

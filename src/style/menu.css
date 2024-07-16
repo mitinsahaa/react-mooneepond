@@ -1,0 +1,138 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Trump+Mediaeval&display=swap");
+.navbar-menu{
+    background-color: #ffffff;
+}
+
+.logo{
+    padding: 20px 20px;
+}
+
+.header-middle-form {
+    width: 100%;
+}
+
+.form-search{
+    padding: 1em;
+    width: 100%;
+    border: #000 solid 1px;
+    margin-left: 2px;
+    margin-bottom: 1em;
+}
+
+.form-search:focus{
+    outline:none;
+    box-shadow: none;
+    border: noen;
+}
+
+.fa-nav-search-icon{
+    margin-right: 20px;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.fa-nav-icon{
+    margin-left: 1em;
+    font-size: 2em;
+}
+
+.header .navbar-nav{
+    margin-left: 20em;
+}
+
+.nav-menus{
+    font-weight: bold !important;
+    margin-left: -60em;
+    margin-top: 8em;
+    margin-bottom: 2em;
+    font-family: 'Trump Mediaeval', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: flex;
+}
+
+/* Dropdown Styling */
+.antique-dropdown{
+    border: none;
+    width: 100em;
+    margin-left: -32.5em;
+    padding: 30%;
+}
+
+.antique-dropdown ul li{
+    list-style-type: none;
+}
+
+.antique-dropdown ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.nav-link{
+    transition: all 0.2s;
+}
+
+.nav-link:hover{
+    /*text-decoration: underline;*/
+    border-bottom: 2px solid #7d2020;
+}
+
+/* Header style end */
+
+/* Footer style start */
+
+.footer-content{
+    background: #44503c;
+    color: #fff;
+    padding: 3em;
+    font-family: 'Trump Mediaeval', serif;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #e3d582;
+}
+
+.social-icons{
+    font-size: 2em;
+    margin-top: 1rem;
+}
+
+.footer-icon{
+    padding: 5%;
+}
+
+.footer-menu{
+    margin-left: 4rem;
+}
+
+.footer-menu li{
+    list-style-type: none;
+    padding-top: 1em;
+    line-height: 140%;
+    margin-left: 10%;
+}
+
+.footer-menu:nth-child(even){
+    margin-left: -20%;
+}
+
+.footer-copyright{
+    background: #c7af36;
+}
